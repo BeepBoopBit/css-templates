@@ -4,13 +4,6 @@
   padding: 0;
 }
 
-.testing-container{
-  padding: 100px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 .card-container{
   display: flex;
   justify-content: center;
