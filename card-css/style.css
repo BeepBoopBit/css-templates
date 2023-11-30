@@ -1,9 +1,13 @@
-*, *::before, *::after{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.card-gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
 }
-
 .card-container{
   display: flex;
   justify-content: center;

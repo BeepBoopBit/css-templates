@@ -4,16 +4,19 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" href="footer-01-css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="nav/nav.css">
 
     <style>
       *, *::before, *::after{
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
+        font-family: 'Open Sans', sans-serif;
       }
       .testing-container{
         padding: 100px 0px;
@@ -21,134 +24,26 @@
         justify-content: center;
         width: 100%;
       }
-
-      * {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Open Sans', sans-serif;
-      }
-
     </style>
   </head>
   <bod>
     <div class="testing-container">
-      <div class="footer-container">
-        <div class="footer-logo">
-          <div class="footer-logo-img">
-            <img src="img/beepboop.png" alt="BeepBoop">
+      <nav class="top-nav-container">
+        <div class="top-nav-container-content">
+          <div class="top-nav-logo-container">
+            <a href="#">
+              <img src="img/beepboop.png" alt="BeepBoop">
+            </a>
           </div>
-          <div class="footer-logo-title">
-            <p>BeepBoopBit</p>
-          </div>
+          <ul class="top-nav-links-container">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
         </div>
-        <div class="footer-links-container">
-          <div class="footer-links-list">
-            <div class="footer-links-header">
-              <span>Navigation</span>
-            </div>
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tutorials</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contacts</a></li>
-              </ul>
-            </div>
-         </div>
-          <div class="footer-links-list">
-            <div class="footer-links-header">
-              <span>Tutorials</span>
-            </div>
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">Rust</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-links-list">
-            <div class="footer-links-header">
-              <span>Lorem</span>
-            </div>
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">Rust</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-links-list">
-            <div class="footer-links-header">
-              <span>Lorem</span>
-            </div>
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">Rust</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-links-list">
-            <div class="footer-links-header">
-              <span>Lorem</span>
-            </div>
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">Rust</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-        <div class="footer-others-container">
-          <div class="footer-info-container">
-            <div class="footer-info-header">
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="footer-info-subtitle">
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <div class="footer-info-text-input">
-              <input type="text" name="text" id="">
-              <input type="button" value="Email">
-            </div>
-          </div>
-          <div class="footer-social-media">
-            <ul>
-              <li>
-                <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-              </li>
-            </ul>
-          </div>
+     </nav>
      </div>
     </div>
   </body>
